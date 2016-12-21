@@ -1,0 +1,7 @@
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\bin\Debug\GSSimu4oac2.exe
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\bin\Debug\GSSimu4oac2.pdb
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Debug\GSSimu4oac2.Form1.resources
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Debug\GSSimu4oac2.Properties.Resources.resources
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Debug\GSSimu4oac2.csproj.GenerateResource.Cache
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Debug\GSSimu4oac2.exe
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Debug\GSSimu4oac2.pdb
