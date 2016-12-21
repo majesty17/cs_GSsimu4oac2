@@ -8,20 +8,44 @@ namespace GSSimu4oac2
     class Data
     {
         //装备名 评分 颜色 图片
-        public static string[,] items_body = new string[,]{
-        {"","100",}
+        public static string[][] items_body = new string[][]{
+        new string[]{"无装备","0","黑色",""},
+        new string[]{"幽灵刺客","553","蓝色",""},
+        new string[]{"野兽","824","紫色",""},
+        new string[]{"追寻者II","883","紫色",""},
+        new string[]{"追寻者III","943","紫色",""},
+        new string[]{"蜥蜴皮","990","蓝色",""},
+        new string[]{"高级野性狡诈","1070","紫色",""},
+        new string[]{"野性水晶","1137","紫色",""},
+        new string[]{"孤狼","1188","蓝色",""},
+        new string[]{"荒石","1276","紫色",""},
+        new string[]{"放鹰者","1330","紫色",""},
+        new string[]{"附魔放鹰者","1348","紫色",""}
         };
 
-        public static string[,] items_neck = new string[,]{
-        {""},
-        {""}
+        public static string[][] items_neck = new string[][]{
+        new string[]{"无装备","0","黑色",""},
+        new string[]{"45级绿色","496","绿色",""},
+        
+        new string[]{"45级蓝色","553","蓝色",""},
+        new string[]{"45级紫色-月光灵石","853","紫色",""},
+        new string[]{"45级紫色-骨灰灵石","943","紫色",""},
+        new string[]{"45级紫色-魂音灵石","1038","紫色",""},
+        new string[]{"45级紫色-天使灵石","1137","紫色",""},
+        new string[]{"55级紫色-天使灵魂石","1137","紫色",""},
         };
 
-        public static string[,] items_ring = new string[,]{
-        {""},
-        {""}
+        public static string[][] items_ring = new string[][]{
+        new string[]{"无装备","0","黑色",""},
+        new string[]{"45级绿色","496","绿色",""},
+        
+        new string[]{"45级蓝色","553","蓝色",""},
+        new string[]{"45级紫色-月光灵石","796","紫色",""},
+        new string[]{"45级紫色-骨灰灵石","883","紫色",""},
+        new string[]{"45级紫色-魂音灵石","974","紫色",""},
+        new string[]{"45级紫色-天使灵石","1070","紫色",""},
+        new string[]{"55级紫色-天使灵魂石","1137","紫色",""},
         };
-
 
         public static string[][] items_weapon = new string[][]{
         new string[]{"无装备","0","黑色",""},
@@ -72,7 +96,7 @@ namespace GSSimu4oac2
             new string[]{"流沙秘境","7100","7800"},
             new string[]{"返回流沙秘境","7300","8000"},
             new string[]{"巫王之墓","4400","9700"},
-            new string[]{"琥珀社高塔","N/A","N/A"},
+            new string[]{"琥珀社高塔","9999","9999"},
 
         };
     }
