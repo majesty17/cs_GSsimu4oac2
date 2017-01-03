@@ -32,7 +32,7 @@ namespace GSSimu4oac2
         new string[]{"45级紫色-骨灰灵石","943","紫色",""},
         new string[]{"45级紫色-魂音灵石","1038","紫色",""},
         new string[]{"45级紫色-天使灵石","1137","紫色",""},
-        new string[]{"55级紫色-天使灵魂石","1137","紫色",""},
+        new string[]{"55级紫色-天使灵魂石","1205","紫色",""},
         };
 
         public static string[][] items_ring = new string[][]{
@@ -96,7 +96,7 @@ namespace GSSimu4oac2
             new string[]{"流沙秘境","7100","7800"},
             new string[]{"返回流沙秘境","7300","8000"},
             new string[]{"巫王之墓","4400","9700"},
-            new string[]{"琥珀社高塔","9999","9999"},
+            new string[]{"琥珀社高塔","7500","10000"},
 
         };
     }

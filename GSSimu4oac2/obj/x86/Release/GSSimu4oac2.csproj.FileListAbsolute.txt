@@ -5,3 +5,4 @@ E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Release\GSSimu4oac2.Properties.Resourc
 E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Release\GSSimu4oac2.csproj.GenerateResource.Cache
 E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Release\GSSimu4oac2.exe
 E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Release\GSSimu4oac2.pdb
+E:\git\cs_GSsimu4oac2\GSSimu4oac2\obj\x86\Release\GSSimu4oac2.csprojResolveAssemblyReference.cache
