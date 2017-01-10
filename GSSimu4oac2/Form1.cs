@@ -75,6 +75,22 @@ namespace GSSimu4oac2
             comboBox_item_shoes.DisplayMember = "Name";
             comboBox_item_wrist.DisplayMember = "Name";
 
+            //时装
+            List<MyItem> fashion_list = new List<MyItem>();
+            for (int i = 0; i < Data.items_fashion.Length; i++)
+            {
+                fashion_list.Add(new MyItem(Data.items_fashion[i]));
+            }
+            comboBox_item_fa_back.DataSource = fashion_list;
+            comboBox_item_fa_body.DataSource = new List<MyItem>(fashion_list.ToArray());
+            comboBox_item_fa_head.DataSource = new List<MyItem>(fashion_list.ToArray());
+            comboBox_item_fa_foot.DataSource = new List<MyItem>(fashion_list.ToArray());
+            comboBox_item_fa_back.DisplayMember = "Name";
+            comboBox_item_fa_body.DisplayMember = "Name";
+            comboBox_item_fa_head.DisplayMember = "Name";
+            comboBox_item_fa_foot.DisplayMember = "Name";
+
+
             //调整listview
             columnHeader1.Width = 128;
             columnHeader2.Width = 66;
@@ -100,7 +116,12 @@ namespace GSSimu4oac2
                 Convert.ToInt32(((MyItem)comboBox_item_neck.SelectedItem).Score) +
                 Convert.ToInt32(((MyItem)comboBox_item_ring1.SelectedItem).Score) +
                 Convert.ToInt32(((MyItem)comboBox_item_ring2.SelectedItem).Score) +
-                Convert.ToInt32(((MyItem)comboBox_item_weapon.SelectedItem).Score);
+                Convert.ToInt32(((MyItem)comboBox_item_weapon.SelectedItem).Score)+
+
+                Convert.ToInt32(((MyItem)comboBox_item_fa_back.SelectedItem).Score) +
+                Convert.ToInt32(((MyItem)comboBox_item_fa_head.SelectedItem).Score) +
+                Convert.ToInt32(((MyItem)comboBox_item_fa_foot.SelectedItem).Score) +
+                Convert.ToInt32(((MyItem)comboBox_item_fa_body.SelectedItem).Score);
             label_GS.Text = value + "";
             //自动调整label居中
             this.label_GS.Location = new System.Drawing.Point((groupBox3.Size.Width-label_GS.Width)/2, 69);

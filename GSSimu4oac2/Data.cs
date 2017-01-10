@@ -8,6 +8,7 @@ namespace GSSimu4oac2
     class Data
     {
         //装备名 评分 颜色 图片
+        //身体
         public static string[][] items_body = new string[][]{
         new string[]{"无装备","0","黑色",""},
         new string[]{"幽灵刺客","553","蓝色",""},
@@ -22,7 +23,7 @@ namespace GSSimu4oac2
         new string[]{"放鹰者","1330","紫色",""},
         new string[]{"附魔放鹰者","1348","紫色",""}
         };
-
+        //项链
         public static string[][] items_neck = new string[][]{
         new string[]{"无装备","0","黑色",""},
         new string[]{"45级绿色","496","绿色",""},
@@ -34,7 +35,7 @@ namespace GSSimu4oac2
         new string[]{"45级紫色-天使灵石","1137","紫色",""},
         new string[]{"55级紫色-天使灵魂石","1205","紫色",""},
         };
-
+        //戒指
         public static string[][] items_ring = new string[][]{
         new string[]{"无装备","0","黑色",""},
         new string[]{"45级绿色","496","绿色",""},
@@ -46,7 +47,7 @@ namespace GSSimu4oac2
         new string[]{"45级紫色-天使灵石","1070","紫色",""},
         new string[]{"55级紫色-天使灵魂石","1137","紫色",""},
         };
-
+        //武器
         public static string[][] items_weapon = new string[][]{
         new string[]{"无装备","0","黑色",""},
         new string[]{"45级绿色-邪秘","459","绿色",""},
@@ -83,7 +84,15 @@ namespace GSSimu4oac2
         new string[]{"艾特拉之蔑视","1102","橙色",""}
         };
 
-
+        public static string[][] items_fashion = new string[][]{
+        new string[]{"无装备","0","黑色",""},
+        new string[]{"1GS紫装","1","紫色",""},
+        new string[]{"节日I","42","橙色",""},
+        new string[]{"节日II","00","橙色",""},
+        new string[]{"节日III","00","橙色",""},
+        new string[]{"节日IV","00","橙色",""},
+        new string[]{"传奇节日","76","橙色",""}
+        };
 
         public static string[][] dungeon = new string[][]{
             new string[]{"被遗忘的矿场","220","4600"},
@@ -99,5 +108,8 @@ namespace GSSimu4oac2
             new string[]{"琥珀社高塔","7500","10000"},
 
         };
+
+
+        
     }
 }
