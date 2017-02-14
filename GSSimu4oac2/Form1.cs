@@ -98,6 +98,11 @@ namespace GSSimu4oac2
 
            
             //触发一次更新
+
+
+            ///TODO:加载预存
+
+
             calGS(sender, e);
         }
 
